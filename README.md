@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/NotKijana/markdown-editor/)
-- Live Site URL: [Markdown Editor](https://notkijana.github.io/markdown/) 
+- Live Site URL: [Markdown Editor](https://notkijana.github.io/markdown-editor/) 
 ## My process
 
 ### Built with
