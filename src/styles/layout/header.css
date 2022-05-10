@@ -1,0 +1,22 @@
+.header {
+    position: relative;
+    background: #1D1F22;
+    padding: 1.2rem 1.6rem 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header.light {
+    background: #F5F5F5;
+    color: #7C8187;
+}
+
+.header svg {
+    cursor: pointer;
+    fill: #7C8187;
+}
+
+.header svg:hover {
+    fill: #E46643;
+}

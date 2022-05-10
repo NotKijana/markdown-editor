@@ -1,0 +1,62 @@
+.files {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar_doc {
+    margin-bottom: 2.6rem;
+    cursor: pointer;
+}
+.sidebar_doc:hover > .document_container {
+    color: #E46643;
+}
+
+#sidebar {
+    position: relative;
+    padding: 2.7rem 2.4rem;
+    min-height: 100vh;
+    width: 25rem;
+    z-index: 10;
+    background: #1D1F22;
+}
+#sidebar_head {
+    margin-bottom: 2.9rem;
+    color: #7C8187;
+}
+
+#sidebar_new {
+    margin-bottom: 3.6rem;
+}
+
+#themes {
+    position: absolute;
+    bottom: 2.7rem;
+    display: flex;
+    width: 10.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+#themeLabel {
+    display: flex;
+    width: 4.8rem;
+    height: 2.4rem;
+    padding: 0.6rem;
+    border-radius: 1.45rem;
+    background-color: #5A6069;
+    user-select: none;
+}
+
+#themeBtn {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#themeInput:checked ~ #themeLabel {
+    justify-content: flex-end;
+}
+#moon {fill: #FFFFFF;}
+#sun {fill: #5A6069;}
+
+#themeInput:checked ~ #sun {fill: #FFFFFF;}
+#themeInput:checked ~ #moon {fill: #5A6069;}

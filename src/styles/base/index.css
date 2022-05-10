@@ -1,0 +1,21 @@
+*, *::after, *::before { margin: 0; padding: 0; box-sizing: inherit }
+
+body {
+  box-sizing: border-box;
+  caret-color: #E46643;
+}
+
+.layout {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  background: #151619;
+}
+.layout.light {
+  background: #FFFFFF;
+}
+
+.invis {
+  display: none !important;
+}

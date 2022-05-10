@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@700&family=Roboto+Mono&family=Roboto+Slab:wght@300;700&family=Roboto:wght@300;400&display=swap');
+
+* {
+    color: inherit;
+    font-family: inherit;
+}
+/* ---------- HTML TAGS HTML TAGS ---------- */
+html {font-size: 62.5%;}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+input {font-size: inherit;}
+textarea {
+    font-size: inherit;
+}
+code, .codeText { font-family: 'Roboto Mono', monospace; }
+
+h1, h2, h3, h4, h5, h6, blockquote {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* ---------- HEADERS HEADERS ---------- */
+h1 {font-size: 3.2rem;}
+h2 {
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+h3 {font-size: 2.4rem;}
+h4 {font-size: 2rem;}
+h5 {font-size: 1.6rem;}
+h6 {
+    font-size: 1.4rem;
+    color: #E46643;
+}
+
+ul, ol {
+    margin-left: 4.4rem;
+}
+
+ul li::marker {
+    color: #E46643;
+}
+/* ---------- CLASSES CLASSES ---------- */
+.App {
+    font-size: 1.4rem;   
+}
+.navigation {
+    color: #C1C4CB;
+}
+.heading_s {
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+}
+.heading_m {
+    font-size: 1.5rem;
+}
+.small {
+    font-weight: 300;
+    color: #C1C4CB;
+    line-height: 1.5rem;
+}
+.title {
+    font-family: 'Commissioner', sans-serif;
+    letter-spacing: 5px;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.txt-white {
+    color: #FFFFFF;
+}
+
+/* ---------- LIGHT MODE LIGHT MODE ---------- */
+
+.light h1, .light h2, .light h3, 
+.light h4, .light h5,
+.light blockquote, .light code {
+    color: #1D1F22;
+}
+.layout .light {color: #7C8187;}
+.light .textArea {color: #1D1F22;}

@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Frontend Mentor - In-browser markdown editor solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [In-browser markdown editor challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/inbrowser-markdown-editor-r16TrrQX9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [What's Next?](#future-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The challenge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+- Create, Read, Update, and Delete markdown documents
+- Name and save documents to be accessed as needed
+- Edit the markdown of a document and see the formatted preview of the content
+- View a full-page preview of the formatted content
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [Github Repo](https://github.com/NotKijana/markdown-editor/)
+- Live Site URL: [Markdown Editor](https://notkijana.github.io/markdown/) 
+## My process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- Jsx
+- Custom CSS
+- Flexbox
+- CSS Grid
+- Desktop-first workflow
+- [React](https://reactjs.org/) - JS library
+- React Hooks (Context, useState, useRef, etc)
+- [ReactMarkdown](https://www.npmjs.com/package/react-markdown) - React Component
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What I learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I learned a lot about breaking a project down into smaller parts in order to give each section the attention to detail it deserves. I also was able to practice a lot of the React hooks that at first intimated me, but now I feel confident when using them. And finally, I really was able to hone in on minimizing my CSS as much as I could, so that when I use scss I can benefit from it's features more.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Some code snippets I am particularly happy with include:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```css
+.layout {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  background: #151619;
+}
+```
 
-## Learn More
+```jsx
+props.input
+  ? <input id='fileInput' onChange={e => setFile(e.target.value)} type='text' value={file} />
+  : props.filename
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```jsx
+<Header name='PREVIEW' onClick={onClick} image={setPreviewEye()} />
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Future Development
 
-### Code Splitting
+I plan on refactoring this mockup into a fullstack application. I would like to add additional features to make creating markdown files significantly easier. A few aesthetic changes will be made as well.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Useful resources
 
-### Analyzing the Bundle Size
+- [Conditional Rendering based on screen dimensions](https://stackoverflow.com/questions/36862334/get-viewport-window-height-in-reactjs) - This helped me to better understand how to implement a responsive application without needing to add additional classes based to be used. I will definitely be implementing variations of this to future projects.
+- [Dynamic Theming](https://www.section.io/engineering-education/watch-for-system-dark-mode-using-js-css/) - This is an amazing article that I reference whenever I need to add user-preferred theming to my project. It is easy to follow and implement in React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Not My Site](https://www.kijana.io)
+- Frontend Mentor - [@NotKijana](https://www.frontendmentor.io/profile/NotKijana)
+- [Not Kijana's Github](https://www.twitter.com/yourusername)

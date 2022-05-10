@@ -1,0 +1,40 @@
+.button, .button_lrg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #E46643;
+    border-radius: 4px;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover, .button_lrg:hover { background: #F39765; }
+
+.button { width: 15.2rem; }
+.button_lrg { width: 20.2rem; }
+.document_button.mobile {
+    width: 4rem;
+    height: 4rem;
+}
+.themes {
+    width: 10.4rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle {
+    width: 4.8rem;
+    height: 2.4rem;
+    background: #5A6069;
+    border-radius: 14.5rem;
+}
+
+.ball {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: #FFFFFF;
+}

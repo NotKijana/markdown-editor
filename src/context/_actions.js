@@ -1,0 +1,4 @@
+export const CHANGE_THEME = 'CHANGE_THEME';
+export const CHANGE_FILE = 'CHANGE_FILE';
+export const SET_BREAKPOINT = 'SET_BREAKPOINT';
+export const DELETE_FILE = 'DELETE_FILE';

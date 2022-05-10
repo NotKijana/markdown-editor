@@ -1,0 +1,38 @@
+#popup {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+}
+#popup_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #7C8187;
+    filter: opacity(40%);
+}
+
+#popup_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 34.3rem;
+    height: 21.8rem;
+    padding: 2.4rem;
+    background: #1D1F22;
+    filter: opacity(130%);
+    color: #C1C4CB;
+}
+
+#popup_box .light{
+    background: #FFFFFF;
+    color: #7C8187;
+}
+
+#popup_text {
+    margin: 1.6rem auto;
+}
+
+#popup_button {
+    width: 100%;
+}

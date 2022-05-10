@@ -1,0 +1,14 @@
+.documents {
+    position: relative;
+    background: #1D1F22;
+}
+
+.document {
+    display: flex;
+    align-items: center;
+}
+
+.document_icon {
+    height: 1.6rem;
+    margin-right: 1.63rem;
+}
