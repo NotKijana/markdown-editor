@@ -26,7 +26,7 @@ function Markdown() {
   return (
     <>
         <div className={`container ${!minWidth768 && 'mobile' }`}>
-            <div className={`markdown ${theme} ${preview && 'invis'}`}>
+            <div className={`markdown ${theme} ${!minWidth768 && 'mobile' } ${preview && 'invis'}`}>
                 {!minWidth768 
                 ? <Header name='MARKDOWN' onClick={onClick} image={ eyeIcon } />
                 : <Header name='MARKDOWN' />

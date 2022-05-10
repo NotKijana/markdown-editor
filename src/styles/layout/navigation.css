@@ -79,7 +79,7 @@
 #fileInput {
     background: none;
     border: none;
-    padding-bottom: 5px;
+    padding: 5px 0;
 }
 #fileInput:focus {
     outline: none;

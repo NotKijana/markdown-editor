@@ -33,6 +33,7 @@ code {
 
 .markdown {border-right: 1px solid #5A6069;}
 .markdown.light {border-right: 1px solid #E4E4E4;}
+.markdown.mobile {border-right: none;}
 
 .textArea:focus {outline: none;}
 .textArea {

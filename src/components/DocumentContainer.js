@@ -24,7 +24,8 @@ function DocumentContainer(props) {
 
         <p className='heading_m'>
           {props.input
-            ? <input id='fileInput' onChange={e => changeFile(e.target.value)} type='text' value={currentFile}/>
+            ? <input id='fileInput' onChange={e => changeFile(e.target.value)} 
+              autocomplete="off" type='text' name='notASearchField' value={currentFile}/>
             : props.filename 
           }
         </p>

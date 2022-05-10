@@ -43,6 +43,7 @@
     border-radius: 1.45rem;
     background-color: #5A6069;
     user-select: none;
+    cursor: pointer;
 }
 
 #themeBtn {
